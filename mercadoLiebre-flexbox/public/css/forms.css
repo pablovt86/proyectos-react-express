@@ -1,0 +1,97 @@
+.body-register{
+    background:linear-gradient(white, black);
+}
+label{
+    color: white;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+  
+}
+.logo img{
+    width: 100%;
+    border-radius: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1024px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 450px;
+    border: 1px solid gray;
+    background-color: rgb(19, 19, 19);
+    opacity: 0.5;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-general{
+margin: 5px 0;
+display:flex;
+justify-content:flex-start;
+
+}
+.input-general label{
+    color:white;
+}
+.input-general input{
+    margin-left: 10px;
+        background: none;
+        border: none;
+        border-bottom: 1px  solid green;
+        color:aliceblue
+}
+.alineador{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column
+}
+
+button.btn.btn-danger{
+background-color: red;
+padding: 12px;
+border-radius: 20%;
+color: aliceblue;
+border: none;
+margin: 5px 10px;
+}
+.container-button{
+    display: flex;
+    justify-content: center;
+}
+
+button.btn.btn-primary{
+    background-color: blue;
+    padding: 12px;
+    border-radius: 20%;
+    color: aliceblue;
+    border: none;
+    margin: 5px 10px;
+}
+.input-interes{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-interes h3{
+    color: chocolate;
+    margin: 5px 0px 5px ;
+
+}
+.input-perfil h3{
+    color: chocolate;
+    margin: 5px 0px 5px 
+
+}
+.input-perfil input{
+    margin-left: 10px;
+}
+.input-perfil label{
+        margin-left: 5px;
+}
